@@ -1,16 +1,18 @@
-import { HeaderNavbar } from './HeaderSection/HeaderNavBar'
-import {Projects} from './BodySection/Projects'
+// import { HeaderNavbar } from './HeaderSection/HeaderNavBar'
+// import { Projects } from './BodySection/Projects'
 import './App.css'
-import { FooterContent } from './FooterSection/FooterContent'
+import { GridImage } from './GridLayOut/GridImage'
+// import { FooterContent } from './FooterSection/FooterContent'
 function App() {
 
 
   return (
     <>
       <div>
-      <HeaderNavbar/>
-      <Projects/>
-      <FooterContent/>
+      <GridImage/>
+      {/* <HeaderNavbar/> */}
+      {/* <Projects/> */}
+      {/* <FooterContent/> */}
       </div>
     </>
   )
